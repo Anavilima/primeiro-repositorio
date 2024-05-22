@@ -1,0 +1,272 @@
+body{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #ced4da;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+@font-face {
+    font-family: 'Arkitech Medium' ;
+    src: url('../fonts/Arkitech\ Medium.ttf') format('truetype');
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    height: 100px;
+    background-color: #212529;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+footer span{
+    font-family: 'Arkitech Medium';
+    font-size: 15px;
+    color: #fbe27e;
+}
+
+header {
+    background-color: #000;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#logo {
+    height: 80px;
+    padding: 15px 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffde59;
+    font-size: 13px;
+    padding: 15px;
+    font-family: 'Arkitech Medium';
+}
+
+header nav {
+    align-self:flex-end ;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+
+nav a:hover {
+    color: #e8671f;
+
+}
+
+#imagem-home {
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/img-home.jpg');
+    background-size: cover;
+    opacity: 0.9;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#call-to-action {
+    background-color: #000;
+    color: #ffde59;
+    font-size: 40px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+#Solicitar-orcamento {
+    background-color: #b54d16;
+    margin-top: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fbe27e;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+#Solicitar-orcamento:hover {
+    background-color: #ffde59;
+    color: #e8671f;
+}
+
+#container {
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 1900px;
+    margin: 0px auto;
+}
+
+#container p {
+    color: #555;
+}
+
+h1 {
+    font-family: 'Arkitech Medium';
+    font-size: 26px;
+    padding: 45px 0px 20px 0px;
+}
+
+
+.box-servico {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+
+#Destaque-servicos {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+
+.box-servico img {
+    height: 180px;
+}
+
+.box-servico h2, p, a {
+    padding: 0px 20px;
+
+}
+
+.box-servico h2 {
+    background-color: lightslategray;
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.box-servico a {
+    text-decoration: none;
+    font-weight: bold;
+    color: lightslategray;
+}
+
+.box-servico:hover a {
+    color: #e8671f;
+}
+
+.box-servico:hover h2 {
+    background-color: #e8671f;
+}
+
+/** Estilos para o sobre.html****/
+
+
+#imagem-interna{
+    width: 100%;
+    padding: 30px 0px;
+    background-image: url(../img/img-home.jpg);
+    background-size: cover;
+    text-shadow: 1px 1px 2px black;
+}
+
+#imagem-interna-header span{
+    font-family: 'Arkitech Medium';
+    font-size: 26px;
+    color: #ffde59;
+}
+
+#conteudo-empresa{
+    display: flex;
+    margin: 30px auto;
+}
+
+#video-empresa{
+    width: 50%;
+    margin-right: 30px;
+    padding: 33px 0px 20px 0px;
+}
+
+#info-empresa{
+    width: 50%;
+    margin-left: 30px;
+}
+
+h3 {
+    color: #e8671f;
+    font-size: 24px;
+}
+
+
+/**** Estilos para a página contato.html***/
+
+
+#contato-conteudo {
+    display: flex;
+    padding: 45px 0px 45px 0px;
+}
+
+#dados-contatos{
+    background-color: #555;
+    width: 50%;
+    margin-right: 30px;
+
+}
+
+#mapa{
+    background-color: #fbe27e;
+    width: 50%;
+    margin-left: 30px;
+
+}
+
+#frm-contato {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+textarea {
+    resize: none;
+
+}
+
+#frm-contato input, textarea {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+}
+
+button {
+    margin: 25px 15px 0px 15px;
+    padding: 8px 40px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 18px;
+}
+
+#botao-enviar {
+    background-color: #37b400;
+    color: white;
+}
+
+#botao-apagar {
+    background-color: white;
+    color: #555;
+}
+
+#frame-mapa {
+    border-radius: 10px;
+}
